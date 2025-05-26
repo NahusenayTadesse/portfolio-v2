@@ -4,7 +4,7 @@
 
 
 </script>
-<div class="sticky top-0 ">
+<div class="sticky top-0">
 <Navbar class="*:ring-primary-700!">
     <div class="hidden lg:flex">
 
@@ -13,7 +13,7 @@
     <NavUl>
         {#each sections as section}
             <NavLi href="/#{section}" >
-               <Button outline>{section}</Button> 
+               <Button>{section}</Button> 
             </NavLi>
         {/each}
     </NavUl>
@@ -25,5 +25,7 @@
 </div>
 
 <style>
+
+
    
 </style>
