@@ -7,29 +7,28 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary-50: #f5f7fa;
-  --color-primary-100: #e4eaf0;
-  --color-primary-200: #c9d5e0;
-  --color-primary-300: #a9bccd;
-  --color-primary-400: #8ea8be;
-  --color-primary-500: #6b8ca7; /* dusty blue */
-  --color-primary-600: #56768e;
-  --color-primary-700: #4a667c;
-  --color-primary-800: #3d5365;
-  --color-primary-900: #2f3e4c;
+  --color-primary-50: #f5f7fa;
+  --color-primary-100: #e4af0;
+  --color-primary-200: #c9d5e0;
+  --color-primary-300: #a9bccd;
+  --color-primary-400: #8ea8be;
+  --color-primary-500: #000000; /* glossy black */
+  --color-primary-600: #56768e;
+  --color-primary-700: #4a667c;
+  --color-primary-800: #3d5365;
+  --color-primary-900: #2f3e4c;
 
-  --color-secondary-50: #f2f8f8;
-  --color-secondary-100: #dfeeee;
-  --color-secondary-200: #bddddf;
-  --color-secondary-300: #9dcaca;
-  --color-secondary-400: #7bb7b7;
-  --color-secondary-500: #5aa3a3; /* muted teal */
-  --color-secondary-600: #478f8f;
-  --color-secondary-700: #3b7b7b;
-  --color-secondary-800: #306565;
-  --color-secondary-900: #244d4d;
+  --color-secondary-50: #f2f8f8;
+  --color-secondary-100: #dfeeee;
+  --color-secondary-200: #bddddf;
+  --color-secondary-300: #9dcaca;
+  --color-secondary-400: #7bb7b7;
+  --color-secondary-500: #5aa3a3; /* muted teal */
+  --color-secondary-600: #478f8f;
+  --color-secondary-700: #3b7b7b;
+  --color-secondary-800: #306565;
+  --color-secondary-900: #244d4d;
 }
-
 
 @source "../node_modules/flowbite-svelte/dist";
 @source "../node_modules/flowbite-svelte-icons/dist";
